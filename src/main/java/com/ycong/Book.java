@@ -13,9 +13,9 @@ import java.util.Date;
  */
 public class Book {
     private String id;
-    private String name;
-    private double price;
-    private Date buyDate;
+    private String name;        // 书名
+    private double price;      // 书价格
+    private Date buyDate;       // 购买日期
 
     public String getId() {
         return id;
